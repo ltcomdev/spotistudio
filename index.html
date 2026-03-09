@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOTI Studio — Visual Content Agency</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">SPOTI<span>STUDIO</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#food">Food Styling</a></li>
+        <li><a href="#3d">3D & Design</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#motion">Motion</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" class="nav__cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="images/image13.jpg" alt="SPOTI Studio" loading="eager">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tag fade-up">Visual Toolkit</p>
+      <h1 class="hero__title fade-up delay-1">THE FUTURE OF<br><span>CONTENT CREATION</span></h1>
+      <p class="hero__sub fade-up delay-2">Innovative technology combined with years of marketing experience</p>
+      <a href="#about" class="hero__btn fade-up delay-3">Discover More</a>
+    </div>
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text reveal-left">
+          <p class="section__tag">Visual Content Agency</p>
+          <h2 class="section__title">Where Your Brand Takes<br><span>Center Stage</span></h2>
+          <p class="about__desc">The content consumption and the raised consumer expectation created a whole new situation on the advertising market: <strong>average and ordinary quality is no longer enough.</strong> Every brand needs <strong>outstanding and extraordinary visual contents</strong> to stand out from the high advertising noise, whether it's a still picture or a commercial movie.</p>
+        </div>
+        <div class="about__image reveal-right">
+          <img src="images/image15.jpg" alt="Visual Content" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Overview -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="services__header reveal-up">
+        <p class="section__tag">What We Do</p>
+        <h2 class="section__title">From Idea to <span>Realisation</span></h2>
+        <p class="services__intro">Whatever is your goal or message, you will not only receive a commercial film, but a complete visual content package. We create conceptions, prepare, plan, shoot and do post-production — all in one team.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card reveal-up">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M19 16l13 8-13 8V16z" fill="currentColor"/></svg>
+          </div>
+          <h3>Motion Content</h3>
+          <p>Animation, beauty cuts, social content, sponsor tags, TVCs — all with special camera and robot technology.</p>
+        </div>
+        <div class="service-card reveal-up delay-1">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="24" r="5" stroke="currentColor" stroke-width="2"/><path d="M28 19l8 10H20" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Photography</h3>
+          <p>Standard, dynamic, style and macro product photography with special visual solutions.</p>
+        </div>
+        <div class="service-card reveal-up delay-2">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4L6 14v20l18 10 18-10V14L24 4z" stroke="currentColor" stroke-width="2"/><path d="M24 24L6 14M24 24v20M24 24l18-10" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>3D Visualisation</h3>
+          <p>Lifelike product modeling, 3D photogrammetry, and packaging design with cutting-edge technology.</p>
+        </div>
+        <div class="service-card reveal-up">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 38l10-14 8 10 6-8 8 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><rect x="4" y="4" width="40" height="40" rx="4" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Creative Design</h3>
+          <p>Artworks, key visuals, branding, advertisements and promotions as part of our full agency service.</p>
+        </div>
+        <div class="service-card reveal-up delay-1">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 8c-8.8 0-16 7.2-16 16s7.2 16 16 16c2 0 3.6-1.6 3.6-3.6 0-.9-.4-1.8-.9-2.4-.5-.6-.9-1.4-.9-2.4 0-2 1.6-3.6 3.6-3.6h4.2c5.3 0 9.6-4.3 9.6-9.6C43.2 13.4 34.8 8 24 8z" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="20" r="3" fill="currentColor"/><circle cx="24" cy="16" r="3" fill="currentColor"/><circle cx="32" cy="20" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>Food Styling</h3>
+          <p>World-class food styling with Master Chef Péter Korpádi for irresistible product presentations.</p>
+        </div>
+        <div class="service-card reveal-up delay-2">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="8" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="28" y="8" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="4" y="28" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="28" y="28" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Database Solutions</h3>
+          <p>Unique access for your visual products — expandable for agencies, partners and subcontractors worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Platforms -->
+  <section class="section platforms">
+    <div class="container">
+      <div class="platforms__inner reveal-up">
+        <h3>Impressive Content for <span>Every Platform</span></h3>
+        <div class="platforms__tags">
+          <span>Social Media</span>
+          <span>TVC</span>
+          <span>Sponsor Tag</span>
+          <span>Website</span>
+          <span>Preroll</span>
+          <span>POS</span>
+          <span>Citylight</span>
+          <span>Billboard</span>
+          <span>Digital Campaigns</span>
+          <span>Apps</span>
+          <span>LCD & Kiosk</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special VFX -->
+  <section class="section split-section" id="vfx">
+    <div class="split-section__image reveal-left">
+      <img src="images/image19.jpg" alt="Special Visual Effects" loading="lazy">
+    </div>
+    <div class="split-section__content reveal-right">
+      <p class="section__tag">Technology</p>
+      <h2 class="section__title">Special <span>Visual Effects</span></h2>
+      <p>We work with a technology that has been available only to Hollywood studios before. Slow motion, flying vegetables, dancing flames or water funnel spinning in the air — anything is possible with us.</p>
+      <p>You can bring us anything that fits on a table: food, drink, sneakers or a cell phone.</p>
+    </div>
+  </section>
+
+  <!-- Studio -->
+  <section class="section split-section split-section--reverse">
+    <div class="split-section__image reveal-right">
+      <img src="images/image20.jpg" alt="In-House Studio" loading="lazy">
+    </div>
+    <div class="split-section__content reveal-left">
+      <p class="section__tag">Facility</p>
+      <h2 class="section__title">Well-Equipped, Cost-Effective <span>In-House Studio</span></h2>
+      <p>Our equipment, filming rigs and cinema robot make it possible to work for you cost-effectively and at the best price available while we adapt the content entirely to what you need.</p>
+    </div>
+  </section>
+
+  <!-- Food Styling -->
+  <section class="section food" id="food">
+    <div class="food__bg">
+      <img src="images/image22.jpeg" alt="Food Styling" loading="lazy">
+    </div>
+    <div class="food__overlay"></div>
+    <div class="container">
+      <div class="food__content reveal-up">
+        <p class="section__tag">Food Styling</p>
+        <h2 class="section__title">People Eat With<br><span>Their Eyes First</span></h2>
+        <p>The quality and freshness of products in food advertisements have become fundamental consumer expectations. Our task is to present a product as compelling and mouth-watering as possible to create the desire and impulse of purchase.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Food Details -->
+  <section class="section food-details">
+    <div class="container">
+      <div class="food-details__grid">
+        <div class="food-detail reveal-up">
+          <img src="images/image21.jpeg" alt="Plating" loading="lazy">
+          <h3>Plating Perfection</h3>
+          <p>From choosing the right ingredients, through making and plating the dish, to the final composition — the food stylist is the key to make a dish aesthetically appealing and irresistible.</p>
+        </div>
+        <div class="food-detail reveal-up delay-1">
+          <img src="images/image22.jpeg" alt="Style" loading="lazy">
+          <h3>Style That Makes a Difference</h3>
+          <p>Well-composed food advertisements can level up the brand communication as well as clearly distinguish the product from the competitors, boost the image and enhance authenticity.</p>
+        </div>
+        <div class="food-detail reveal-up delay-2">
+          <img src="images/image23.jpeg" alt="World-class chef" loading="lazy">
+          <h3>World-Class Expertise</h3>
+          <p>Master chef Péter Korpádi has experienced the cuisine of the most exciting countries all around Asia, South America, and Europe. Now he supports the SPOTI team with his creativity and many years of experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3D Section -->
+  <section class="section section-3d" id="3d">
+    <div class="container">
+      <div class="section-3d__header reveal-up">
+        <p class="section__tag">Innovation</p>
+        <h2 class="section__title">3D Modelling & <span>Visualisation</span></h2>
+        <p>Product modeling with lifelike effect, where we can no longer tell whether what we see is a real photo or a modeled image. Countless images can be generated from a 3D model — no need to take photos again if a new setting is needed or the packaging graphics change.</p>
+      </div>
+      <div class="section-3d__features">
+        <div class="feature-card reveal-up">
+          <img src="images/image26.jpg" alt="3D Product" loading="lazy">
+          <div class="feature-card__content">
+            <h3>3D Product Visualisation</h3>
+            <p>Not only packaging, but the products themselves can also be modeled in 3D with the help of texture patterns.</p>
+          </div>
+        </div>
+        <div class="feature-card reveal-up delay-1">
+          <img src="images/image27.jpg" alt="3D Photogrammetry" loading="lazy">
+          <div class="feature-card__content">
+            <h3>3D Photogrammetry</h3>
+            <p>The new generation of 3D modeling and visualization based on scanned photographic references.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packaging Design -->
+  <section class="section packaging">
+    <div class="container">
+      <div class="packaging__grid">
+        <div class="packaging__text reveal-left">
+          <p class="section__tag">Design</p>
+          <h2 class="section__title">Product <span>Packaging Design</span></h2>
+          <p>When designing product packaging, it is important to create a product portfolio that will keep the brand easily recognizable.</p>
+          <p>It is important for product packaging to accurately reflect the values represented by the brand, while also creating a visually striking effect that captures the consumer's attention.</p>
+          <p>At Spoti Studio, professionals with decades of design experience work, who continuously follow the latest trends to gain consumer trust in the product.</p>
+        </div>
+        <div class="packaging__images reveal-right">
+          <img src="images/image28.jpg" alt="Packaging 1" loading="lazy" class="packaging__img">
+          <img src="images/image29.jpg" alt="Packaging 2" loading="lazy" class="packaging__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photography -->
+  <section class="section photo" id="photography">
+    <div class="container">
+      <div class="photo__header reveal-up">
+        <p class="section__tag">Photography</p>
+        <h2 class="section__title">Special Visual <span>Solutions</span></h2>
+        <p>We take special still images of any product in four different styles. Consumers crave more and no longer just want to see a product image — they enjoy rotating or getting closer to the product as if they could interact with it.</p>
+      </div>
+      <div class="photo__grid">
+        <div class="photo-card reveal-up">
+          <img src="images/image33.jpg" alt="Standard photography" loading="lazy">
+          <div class="photo-card__label">Standard</div>
+        </div>
+        <div class="photo-card reveal-up delay-1">
+          <img src="images/image34.jpg" alt="Dynamic photography" loading="lazy">
+          <div class="photo-card__label">Dynamic</div>
+        </div>
+        <div class="photo-card reveal-up delay-1">
+          <img src="images/image35.jpg" alt="Style photography" loading="lazy">
+          <div class="photo-card__label">Style</div>
+        </div>
+        <div class="photo-card reveal-up delay-2">
+          <img src="images/image36.jpg" alt="Macro photography" loading="lazy">
+          <div class="photo-card__label">Macro</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Motion Content -->
+  <section class="section motion" id="motion">
+    <div class="motion__bg">
+      <img src="images/image88.jpg" alt="Motion Content" loading="lazy">
+    </div>
+    <div class="motion__overlay"></div>
+    <div class="container">
+      <div class="motion__content reveal-up">
+        <p class="section__tag">Moving Images</p>
+        <h2 class="section__title">The New Generation of <span>Moving Images</span></h2>
+        <p>With the help of our special camera equipment and camera movement technology, products come to life before your eyes in unprecedented detail. With slow-motion technology, we can observe moments that the naked eye cannot see.</p>
+        <div class="motion__types">
+          <div class="motion-type">
+            <div class="motion-type__dot"></div>
+            <span>Animation</span>
+          </div>
+          <div class="motion-type">
+            <div class="motion-type__dot"></div>
+            <span>Beauty Cut</span>
+          </div>
+          <div class="motion-type">
+            <div class="motion-type__dot"></div>
+            <span>Social Content</span>
+          </div>
+          <div class="motion-type">
+            <div class="motion-type__dot"></div>
+            <span>Sponsor Tag</span>
+          </div>
+          <div class="motion-type">
+            <div class="motion-type__dot"></div>
+            <span>TVC</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Content -->
+  <section class="section brand-content">
+    <div class="container">
+      <div class="brand-content__grid">
+        <div class="brand-content__text reveal-left">
+          <p class="section__tag">Brand Content</p>
+          <h2 class="section__title">Not Only Effective, But Also <span>Visually Impressive</span></h2>
+          <p>Let's appeal to emotions together, tell a story, while reinforcing in the consumer that they need YOUR product, all in a unique, inviting, and rich visual world provided by the SPOTI team.</p>
+          <p><strong>You will be the customer's choice.</strong> With a well-thought-out strategy that highlights your brand's positive attributes in an organized manner, you can provide solutions to the challenges of everyday life.</p>
+        </div>
+        <div class="brand-content__image reveal-right">
+          <img src="images/image99.jpg" alt="Brand Content" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VP Studio -->
+  <section class="section vp-studio">
+    <div class="container">
+      <div class="vp-studio__inner reveal-up">
+        <p class="section__tag">Innovation</p>
+        <h2 class="section__title">Social Virtual <span>Production Studio</span></h2>
+        <p>Our Social VP Studio offers the perfect solution for creating brand-loyal environments on social media. Special 3D technology allows our LED wall to perfectly adapt to filming needs, enabling you to shoot in an eye-catching, brand-loyal environment without worrying about high costs or set construction.</p>
+        <p>Anything is possible in the virtual space tailored to your brand — from recipe videos in a custom kitchen to showcasing your winter fashion collection on snowy peaks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Shoot -->
+  <section class="section split-section">
+    <div class="split-section__image reveal-left">
+      <img src="images/image104.jpg" alt="Social Shoot" loading="lazy">
+    </div>
+    <div class="split-section__content reveal-right">
+      <p class="section__tag">Social Media</p>
+      <h2 class="section__title">Social Shoot <span>Content</span></h2>
+      <p>We create motion and still content using the latest motion control robot technology in a mini virtual space. This service allows you to produce up to <strong>10 video and 10 photo contents in a day</strong>, perfectly tailored to your brand.</p>
+      <p>We help your product stand out, increasing your views, all at social media-friendly prices.</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="gallery__header reveal-up">
+        <p class="section__tag">Portfolio</p>
+        <h2 class="section__title">Our <span>Artworks</span></h2>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item reveal-up"><img src="images/image38.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-1"><img src="images/image39.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-1"><img src="images/image40.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-2"><img src="images/image41.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up"><img src="images/image42.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-1"><img src="images/image43.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-1"><img src="images/image44.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-2"><img src="images/image45.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up"><img src="images/image46.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-1"><img src="images/image47.jpeg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-1"><img src="images/image37.jpg" alt="Artwork" loading="lazy"></div>
+        <div class="gallery__item reveal-up delay-2"><img src="images/image32.jpg" alt="Artwork" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sustainability -->
+  <section class="section sustainability">
+    <div class="container">
+      <div class="sustainability__inner reveal-up">
+        <div class="sustainability__icon">
+          <svg viewBox="0 0 64 64" fill="none"><path d="M32 8C20 8 12 18 12 28c0 14 20 28 20 28s20-14 20-28c0-10-8-20-20-20z" stroke="currentColor" stroke-width="2.5"/><path d="M32 18c-4 0-8 4-8 10 0 4 4 10 8 14 4-4 8-10 8-14 0-6-4-10-8-10z" stroke="currentColor" stroke-width="2"/><line x1="32" y1="22" x2="32" y2="42" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h2 class="section__title">Committed to a <span>Greener Future</span></h2>
+        <p>Spoti Studio is committed to reducing its ecological footprint. By utilizing AI and virtual technologies, we consume fewer resources and materials, reducing waste and promoting sustainability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__inner reveal-up">
+        <h2 class="section__title">Ready to Create Something <span>Extraordinary?</span></h2>
+        <p>From idea to realisation — let's work together on your next visual project.</p>
+        <a href="mailto:hello@spotistudio.com" class="contact__btn">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#hero" class="nav__logo">SPOTI<span>STUDIO</span></a>
+          <p>Visual Content Agency</p>
+        </div>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#photography">Photography</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__copy">
+          &copy; 2024 SPOTI Studio. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close">&times;</button>
+    <img class="lightbox__img" src="" alt="">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
